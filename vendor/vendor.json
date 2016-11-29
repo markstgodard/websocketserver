@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "b16dhdlO3maTSUhB7AlKAbsPoAo=",
+			"path": "github.com/gorilla/websocket",
+			"revision": "87f6f6a22ebfbc3f89b9ccdc7fddd1b914c095f9",
+			"revisionTime": "2014-10-12T16:34:51Z"
+		}
+	],
+	"rootPath": "github.com/markstgodard/websocketserver"
+}
