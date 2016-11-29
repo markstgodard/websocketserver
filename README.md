@@ -10,7 +10,7 @@ For example, deploy to [bluemix](https://bluemix.net)
 
 **Request**
 ```sh
-time curl -i -N -v -H "Connection: Upgrade" -H "Upgrade: websocket" http://websocketserver.mybluemix.net/echo -H "Sec-WebSocket-Extensions: permessage-deflate" -H "Sec-WebSocket-Key: V7jGVEefI7V8fC+mW8vhFA==" -H "Sec-WebSocket-Version: 13"
+time curl -i -N -v -H "Connection: Upgrade" -H "Upgrade: websocket" http://websocketserver.mybluemix.net/echo -H "Sec-WebSocket-Extensions: permessage-deflate" -H "Sec-WebSocket-Key: some-key" -H "Sec-WebSocket-Version: 13"
 ```
 
 
