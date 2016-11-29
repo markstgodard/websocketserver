@@ -8,13 +8,13 @@ cf push websocketserver -b https://github.com/cloudfoundry/go-buildpack.git
 ## Test websocket upgrade
 For example, deploy to [bluemix](https://bluemix.net)
 
-*Request*
+**Request**
 ```sh
 time curl -i -N -v -H "Connection: Upgrade" -H "Upgrade: websocket" http://websocketserver.mybluemix.net/echo -H "Sec-WebSocket-Extensions: permessage-deflate" -H "Sec-WebSocket-Key: V7jGVEefI7V8fC+mW8vhFA==" -H "Sec-WebSocket-Version: 13"
 ```
 
 
-*Response*
+**Response**
 ```sh
 *   Trying 75.126.81.66...
 * Connected to markwebsocketserver.mybluemix.net (75.126.81.66) port 80 (#0)
