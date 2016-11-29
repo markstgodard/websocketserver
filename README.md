@@ -5,7 +5,7 @@
 cf push websocketserver -b https://github.com/cloudfoundry/go-buildpack.git
 ```
 
-## Test websocket upgrade
+## Test websocket http connection upgrade
 For example, deploy to [bluemix](https://bluemix.net)
 
 **Request**
